@@ -1,5 +1,7 @@
 # ImageSelectedFromPictureLibrary
 //选在相册里的图片放在imageView里面
+
+
     @IBAction func selectImageFromPhotoLibrary(sender: UITapGestureRecognizer) {
         mealNameTextField.resignFirstResponder()
         let imagePickerController = UIImagePickerController()
